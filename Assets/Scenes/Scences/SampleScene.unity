@@ -3772,7 +3772,6 @@ GameObject:
   - component: {fileID: 384492474}
   - component: {fileID: 384492473}
   - component: {fileID: 384492477}
-  - component: {fileID: 384492478}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -3884,29 +3883,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af8c6b226f05ea04ea0569ea81ce5a90, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTransition
   sceneToLoad: Menu
---- !u!65 &384492478
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384492472}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 10, y: 1.0000001, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &385439548
 GameObject:
   m_ObjectHideFlags: 0
@@ -12541,14 +12519,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398804803}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.55, y: 0, z: -11.24}
+  m_LocalRotation: {x: -0.000044787263, y: -0.0017691783, z: -0.0018180562, w: 0.99999684}
+  m_LocalPosition: {x: 1.55, y: -8.668739e-10, z: -11.24}
   m_LocalScale: {x: 1.4853295, y: 1.4853295, z: 1.5046388}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1119119185}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.006, y: -0.203, z: -0.208}
 --- !u!1 &1418161723
 GameObject:
   m_ObjectHideFlags: 0
